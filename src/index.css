@@ -1,0 +1,349 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+/*   border: 2px solid #ffd900c0; */
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem auto;
+}
+
+.header h1{
+  font-size: 32px;
+  margin-top: 1rem;
+  color: #ffd700;
+  border-bottom: 2px solid #ffd700;
+  white-space: nowrap;
+}
+
+.team-box {
+  width: 400px;
+  height: 500px;
+}
+
+.team-bo1 {
+  background-image: url("./assets/abisola.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-bo2 {
+  background-image: url("./assets/temidayo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-bo3 {
+  background-image: url("./assets/abiola.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-bo4 {
+  background-image: url("./assets/daniel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-bo5 {
+  background-image: url("./assets/Ade.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-bo6 {
+  background-image: url("./assets/dolapo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-bo7 {
+  background-image: url("./assets/temidayo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-bo8 {
+  background-image: url("./assets/yobright.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-bo9 {
+  background-image: url("./assets/wunmi.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-name {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.team-name::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+  margin: auto;
+  margin-top: 10px;
+  border: 10px;
+  border: 2px solid #ffd900c0;
+}
+
+.team-bo1 .team-name::before {
+  background-image: url("./assets/abisola.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo1:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo2 .team-name::before {
+  background-image: url("./assets/temidayo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo2:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo2 .team-name::before {
+  background-image: url("./assets/temidayo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo3:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo3 .team-name::before {
+  background-image: url("./assets/abiola.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo4:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo4 .team-name::before {
+  background-image: url("./assets/daniel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo5:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo5 .team-name::before {
+  background-image: url("./assets/Ade.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo6:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo6 .team-name::before {
+  background-image: url("./assets/dolapo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo7:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo7 .team-name::before {
+  background-image: url("./assets/temidayo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo7:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo8 .team-name::before {
+  background-image: url("./assets/yobright.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo8:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+.team-bo9 .team-name::before {
+  background-image: url("./assets/wunmi.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team-bo9:hover .team-name::before {
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+}
+
+.team-name:hover {
+  backdrop-filter: blur(5px);
+}
+
+.img {
+  width: 70%;
+  height: 50%;
+  opacity: 0;
+  z-index: 99999;
+}
+
+.team-content {
+  width: 100%;
+  height: auto;
+  margin-top: 350px;
+  opacity: 1;
+}
+
+.team-content h2 {
+  color: #ffd700;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.team-content p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #ffd900c0;
+  letter-spacing: 0.5px;
+}
+
+.team-content svg {
+  position: relative;
+  font-size: 35px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.team-content svg:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.logo-facebook {
+  color: #1771e6;
+}
+.logo-instagram {
+  color: #e459d8;
+}
+.logo-twitter {
+  color: #016dd9;
+}
+.logo-linkedin {
+  color: #2962ff;
+}
+.logo-github {
+  color: #111111;
+}
+
+.logo-facebook:hover {
+  color: #fff;
+  background-color: #1771e6;
+}
+.logo-instagram:hover {
+  color: #fff;
+  background-color: #e459d8;
+}
+.logo-twitter:hover {
+  color: #fff;
+  background-color: #016dd9;
+}
+.logo-linkedin:hover {
+  color: #fff;
+  background-color: #2962ff;
+}
+.logo-github:hover {
+  color: #fff;
+  background-color: #111111;
+}
+.logo-facebook:hover {
+  color: #fff;
+  background-color: #1771e6;
+}
+
+.team-name:hover .team-content {
+  opacity: 1;
+}
